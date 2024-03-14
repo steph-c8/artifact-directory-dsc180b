@@ -1,6 +1,6 @@
 {
-    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
-    "project-repository": "https://github.com/DSC-Capstone/project-templates.git",
-    "project-website-url": "https://afraenkel.github.io/capstone-malware-domain/",
-    "project-website-code": "https://github.com/afraenkel/capstone-malware-domain.git"
+    "this-repository": "https://github.com/steph-c8/artifact-directory-template.git",
+    "project-repository": "https://github.com/474benchen/bias_aware_gridsearchCV.git",
+    "project-website-url": "https://474benchen.github.io/bias_aware_gridsearchCV/",
+    "project-website-code": "https://github.com/474benchen/bias_aware_gridsearchCV.git"
 }
