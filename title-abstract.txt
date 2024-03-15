@@ -3,23 +3,4 @@ BiasAwareGridSearchCV: Integrating Fairness Into Model
 Selection
 
 Abstract:
-As Artificially Intelligent algorithms become increasingly influential in every
-aspect of our daily lives, unaddressed biases within these models have the
-potential to drive unethical decision-making, such as amplifying discrimina-
-tion against marginalized communities. Efforts to address these concerns
-have surfaced through tools designed to detect and mitigate bias, which pre-
-dominantly focus on correcting biases after the model’s development phase,
-leaving limited solutions for incorporating ethical considerations more com-
-prehensively during the model development process. We aimed to address
-this gap by creating the BiasAwareGridSearch (BAGS) package, a modified
-version of sklearn’s GridSearchCV, that integrates an additional bias detec-
-tion layer directly into the hyperparameter tuning step. BAGS replaces Grid-
-Search and other tuning methods, seamlessly integrating bias consideration
-into the standard machine learning process. While BAGS alone did not con-
-sistently result in significant bias reduction for our models, we found a corre-
-lation between increasing accuracy and decreasing bias, and determined that
-specific hyperparameters play a large role in bias minimization while others
-have no effect. Paired with other bias mitigation techniques, our package is a
-useful tool for developers to further de-bias models by exploring how chosen
-hyperparameters affect their results.
-
+As Artificially Intelligent algorithms become increasingly influential in every aspect of our daily lives, unaddressed biases within these models have the potential to drive unethical decision-making, such as amplifying discrimination against marginalized communities. Efforts to address these concerns have surfaced through tools designed to detect and mitigate bias, which predominantly focus on correcting biases after the model's development phase, leaving limited solutions for incorporating ethical considerations more comprehensively during the model development process. We aimed to address this gap by creating the BiasAwareGridSearch (BAGS) package, a modified version of sklearn’s GridSearchCV, that integrates an additional bias detection layer directly into the hyperparameter tuning step. BAGS replaces GridSearch and other tuning methods, seamlessly integrating bias consideration into the standard machine learning process. While BAGS alone did not consistently result in significant bias reduction for our models, we found a correlation between increasing accuracy and decreasing bias, and determined that specific hyperparameters play a large role in bias minimization while others have no effect. Paired with other bias mitigation techniques, our package is a useful tool for developers to further de-bias models by exploring how chosen hyperparameters affect their results.
